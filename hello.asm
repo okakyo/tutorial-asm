@@ -23,4 +23,5 @@ _start:
 ; exit(1)
    push 0x3c
    pop rax
-   syscal
+   syscall
+   
